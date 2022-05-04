@@ -13,3 +13,70 @@ img {
     z-index: -1;
     opacity: 80%;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#clock {
+    margin-top: 50px;
+    font-size: 40px;
+    color:aliceblue;
+    -webkit-text-stroke: 1px black;
+}
+
+#greeting {
+    margin-top: 0px;
+    font-size: 50px;
+    color:aliceblue;
+    -webkit-text-stroke: 1px black;
+}
+
+#todo-input {
+    width: 400px;
+}
+
+#todo-list {
+    font-weight: 500;
+    font-size: 20px;
+    color: aliceblue;
+    text-decoration: underline;
+}
+
+#todo-list button{
+    margin-left: 10px;
+}
+
+#quote {
+    margin: 0px 300px 20px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#quote-content {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    color:aliceblue;
+
+}
+
+#quote-author {
+    font-size: 25px;
+    font-weight: 700;
+    color:aliceblue;
+
+}
+
+#weather :first-child {
+    font-weight: 500;
+    color:gold;
+}
+
+#weather :last-child {
+    font-weight: 500;
+    color:palegreen;
+}
